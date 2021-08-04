@@ -20,7 +20,8 @@ h1 {
     text-align: center;
     text-shadow: rgba(200, 200, 200, 1) 0px 0px 30px;
     color: #ffffff;
-    transition: transform .5s, color .5s; 
+	-webkit-transition: color 1s;
+    transition: transform .5s, color .5s linear; 
     letter-spacing: 0.068em;
     display: inline-block;
     margin: 0 auto;
@@ -45,6 +46,7 @@ a:hover {
 a {
        color: #ffffff;
        text-decoration: none;
+	   transition: color .2s linear, text-shadow .2s linear; 
      
     }    
     
